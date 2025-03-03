@@ -1,4 +1,4 @@
-import compile from "../compile";
+import compile from "@chicory-lang/compiler";
 
 export default function chicory() {
   return {
@@ -12,14 +12,15 @@ export default function chicory() {
         },
       }
     },
-    transform(code, id) {
+    transform(source, id) {
       if (!id.endsWith('.chic')) {
         return null
       }
 
       try {
+        const {code} = compile(source)
         return {
-          code: compile(code),
+          code,
           map: null,
         };
       } catch (error) {
