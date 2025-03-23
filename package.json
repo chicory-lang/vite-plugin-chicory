@@ -23,6 +23,6 @@
   },
   "homepage": "https://github.com/chicory-lang/vite-plugin-chicory#readme",
   "dependencies": {
-    "@chicory-lang/compiler": "^0.0.8"
+    "@chicory-lang/compiler": "^0.0.12"
   }
 }
