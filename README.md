@@ -5,14 +5,14 @@
 1. Install the plugin:
 
 ```
-npm install --save-dev vite-plugin-chicory
+npm install --save-dev @chicory-lang/vite-plugin-chicory
 ```
 
 2. Add the plugin to your `vite.config.js`:
 
 ```javascript
 import { defineConfig } from 'vite';
-import chicory from 'vite-plugin-chicory';
+import chicory from '@chicory-lang/vite-plugin-chicory';
 
 export default defineConfig({
   plugins: [chicory()],
