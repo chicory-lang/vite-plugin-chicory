@@ -36,10 +36,8 @@
     "url": "https://github.com/chicory-lang/vite-plugin-chicory/issues"
   },
   "homepage": "https://github.com/chicory-lang/vite-plugin-chicory#readme",
-  "dependencies": {
-    "@chicory-lang/compiler": "^0.0.30"
-  },
   "devDependencies": {
+    "@chicory-lang/compiler": "^0.0.31",
     "@types/node": "^22.15.21",
     "tsup": "^8.5.0",
     "typescript": "^5.8.3",
